@@ -18,28 +18,28 @@
    ```
 2. **Создайте виртуальное окружение и активируйте его:**
    ```bash
-python -m venv venv
-source venv/bin/activate       # для Mac/Linux
-venv\Scripts\activate          # для Windows
+   python -m venv venv
+   source venv/bin/activate       # для Mac/Linux
+   venv\Scripts\activate          # для Windows
    ```
 
 3. **Установите зависимости:**
    ```bash
-pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 4. **Создайте файл .env в корне проекта и добавьте туда настройки:**
    ```bash
-ENGINE=
-HOST=
-PORT=
-NAME=
-USER=
-PASSWORD=
-SECRET_KEY=
+   ENGINE=...
+   HOST=...
+   PORT=...
+   NAME=...
+   USER=...
+   PASSWORD=...
+   SECRET_KEY=...
    ```
 
 5. **Запустите скрипт:**
    ```bash
-python main.py
+   python main.py
    ```
